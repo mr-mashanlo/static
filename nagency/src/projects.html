@@ -1,0 +1,34 @@
+@@include('./parts/header.html', { 'title': 'Projects Page', 'description': 'Description' })
+
+<div class="page">
+
+  @@include('./parts/header-block.html', { 'bg': 'bg-[#F8FBFF]' })
+
+  @@include('./parts/heading-block.html', { 'title': 'Our Projects' })
+
+  <section class="py-12 sm:py-20">
+    <div class="container">
+      <div class="text-center">
+        <p class="text-pink text-lg leading-[1.7]">Our Projects</p>
+        <h2 class="mt-4 text-h3 sm:text-h2 text-dark-gray font-semibold -tracking-wider">Latest Project We Have Done</h2>
+      </div>
+      <div class="mt-7 sm:mt-12 grid sm:grid-cols-3 gap-10">
+        <img src="images/dist/work-1.webp" alt="" class="block w-full rounded-xl -rotate-2">
+        <img src="images/dist/work-2.webp" alt="" class="block w-full rounded-xl rotate-2">
+        <img src="images/dist/work-3.webp" alt="" class="block w-full rounded-xl -rotate-2">
+        <img src="images/dist/work-4.webp" alt="" class="block w-full rounded-xl rotate-2">
+        <img src="images/dist/work-5.webp" alt="" class="block w-full rounded-xl -rotate-2">
+        <img src="images/dist/work-6.webp" alt="" class="block w-full rounded-xl rotate-2">
+      </div>
+    </div>
+  </section>
+
+  @@include('./parts/question-block.html')
+
+  @@include('./parts/banner-block.html')
+
+  @@include('./parts/footer-block.html')
+
+</div>
+
+@@include('./parts/footer.html')

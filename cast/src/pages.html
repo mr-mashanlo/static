@@ -1,0 +1,31 @@
+@@include('./parts/header.html', { 'title': 'Pages Page', 'description': 'Description' })
+
+<div class="page">
+
+  @@include('./parts/header-block.html')
+
+  <section class="py-8">
+    <div class="container">
+      <h1 class="mb-11 text-h1 font-semibold">Pages</h1>
+      <div>
+        <ul class="ml-4 list-disc">
+          <li class="mb-2"><a href="index.html">Home</a></li>
+          <li class="mb-2"><a href="blog.html">Blog</a></li>
+          <li class="mb-2"><a href="single-blog.html">Single Blog</a></li>
+          <li class="mb-2"><a href="episodes.html">Episodes</a></li>
+          <li class="mb-2"><a href="single-episode.html">Single Episodes</a></li>
+          <li class="mb-2"><a href="about.html">About</a></li>
+          <li class="mb-2"><a href="contact.html">Contact</a></li>
+          <li class="mb-2"><a href="donate.html">Donate</a></li>
+          <li class="mb-2"><a href="privacy.html">Privacy</a></li>
+          <li class="mb-2"><a href="404.html">404</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  @@include('./parts/footer-block.html')
+
+</div>
+
+@@include('./parts/footer.html')

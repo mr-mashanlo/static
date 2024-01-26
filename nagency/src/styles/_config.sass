@@ -1,0 +1,52 @@
+$screen-md: 426px
+$screen-lg: 769px
+
+@include font('Inter', normal, 400, '../fonts/Inter/Inter-Regular.woff2')
+@include font('Inter', normal, 600, '../fonts/Inter/Inter-SemiBold.woff2')
+
+html
+  font-size: calc(100vw / 375 * 16)
+  @media ( min-width: $screen-md )
+    font-size: calc(100vw / 1440 * 16)
+
+body
+  font-family: Inter, serif
+  line-height: 1.5
+  color: #657790
+
+.page
+  contain: paint
+
+.container
+  width: 100%
+  max-width: 77rem
+  padding: 0 1rem
+  margin: 0 auto
+  &--small
+    max-width: 44rem
+  &--medium
+    max-width: 50rem
+
+.border-light-gray
+  border-color: #E5EAF1
+
+.bg-pink
+  background-color: #F0899C
+
+.bg-blue
+  background-color: #00B5E2
+
+.text-pink
+  color: #F0899C
+
+.text-light-gray
+  color: #657790
+
+.text-dark-gray
+  color: #0F172A
+
+.text-blue
+  color: #00B5E2
+
+.translate-l-50
+  transform: translateX(-50%)

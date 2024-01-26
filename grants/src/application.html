@@ -1,0 +1,39 @@
+@@include('./parts/header.html', { 'title': 'Apply for a grant', 'description': 'Description' })
+
+<div class="page">
+
+  @@include('./parts/header-block.html')
+
+  @@include('./parts/title-text-block.html', { 'title': 'Apply for a grant', 'text': 'Please complete the application below for Grant consideration! Learn more about the criteria used for selecting grants.' })
+
+  <section class="py-5 sm:py-20">
+    <div class="container container--small">
+      <form class="p-4 sm:p-10 bg-white text-black rounded-xl">
+        <label class="flex flex-col gap-3">
+          <span>Name *</span>
+          <input type="text" class="p-2 border border-solid border-gray-300 rounded-md">
+        </label>
+        <label class="mt-10 flex flex-col gap-3">
+          <span>Email *</span>
+          <span class="opacity-60">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, sed!</span>
+          <input type="text" class="p-2 border border-solid border-gray-300 rounded-md">
+        </label>
+        <label class="mt-10 flex flex-col gap-3">
+          <span>About You *</span>
+          <span class="opacity-60">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, sed!</span>
+          <textarea rows="3" class="p-2 border border-solid border-gray-300 rounded-md"></textarea>
+        </label>
+        <label class="mt-10 flex flex-col gap-3">
+          <span>Additional Links</span>
+          <span class="opacity-60">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, sed!</span>
+          <textarea rows="3" class="p-2 border border-solid border-gray-300 rounded-md"></textarea>
+        </label>
+      </form>
+    </div>
+  </section>
+
+  @@include('./parts/footer-block.html')
+
+</div>
+
+@@include('./parts/footer.html')

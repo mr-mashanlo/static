@@ -1,0 +1,61 @@
+@@include('./parts/header.html', { 'title': 'Single Page', 'description': 'Description' })
+
+<div class="page">
+
+  @@include('./parts/header-block.html')
+
+  <section class="py-5 sm:py-20">
+    <div class="container container--small">
+      <div class="text-center">
+        <p class="mb-5 sm:text-lg text-gray">Funding round</p>
+        <h1 class="mb-10 font-bold text-h4 sm:text-h2">Round 9 of approvals</h1>
+        <p class="mb-5 font-bold sm:text-xl">By:</p>
+        <div class="mb-20 flex justify-center flex-wrap gap-4">
+          <a href="#" class="p-2 pr-5 bg-gray text-white rounded-full flex items-center gap-2">
+            <img src="images/dist/user-1.webp" alt="" class="w-10 h-10 rounded-full">
+            <span>Theresa Webb</span>
+          </a>
+        </div>
+      </div>
+      <p class="mb-8">Hi Everyone!</p>
+      <p class="mb-8">Grant includes work on Funding Rates page, Rewards & Tracking Simulator, and CLI Trading tool. All will be combined in a community accessible webpage that will continue to host additional work done and maintenance on behalf of Chaos Labs.</p>
+      <p class="mb-8">Funding Rates page will help promote and guide traders around Perpetual premiums found across all assets traded on dYdX. Rewards & Tracking simulator will help market the benefits of trading on dYdX and assist current traders in mapping out their rewards. The CLI trading tool will make it easier for non-UI based traders to execute quickly on dYdX. The general purpose of this grant is to recruit Chaos Labs, a very qualified contributor, to work with dYdX on current and future projects.</p>
+      <p class="mb-8">We’re also happy to share that the Committee revamp is close to getting finalized. This revamp will enable payments to be complete by the Grants multisig. The team is working on the final documentation and will share everything with the community as soon as its ready. We’re excited to finally start paying our Grantees to really get things going!</p>
+      <p class="mb-8">We’re also happy to share that the Committee revamp is close to getting finalized. This revamp will enable payments to be complete by the Grants multisig. The team is working on the final documentation and will share everything with the community as soon as its ready. We’re excited to finally start paying our Grantees to really get things going!</p>
+    </div>
+  </section>
+
+  <section class="py-5 sm:py-20">
+    <div class="container container--small">
+      <div class="max-w-2xl mx-auto mb-10 sm:mb-20 text-center">
+        <p class="font-bold text-h5 sm:text-h3">Projects built with grants</p>
+      </div>
+      <div class="grid sm:grid-cols-2 gap-5">
+        <div class="p-6 rounded-xl bg-gray flex flex-col">
+          <p class="mb-3 text-sm sm:text-base text-gray">Crowdfund</p>
+          <p class="mb-2 text-lg sm:text-h5 font-bold">Funding rates page</p>
+          <p class="mb-3 text-sm sm:text-base text-gray">Funding amount: $5,000 - $6,000</p>
+          <p class="mb-14">Grant will be used to build a dedicated web app to give traders a view of all dYdX asset funding rates across multiple timeframes. The page will be interactive to include deep diving across different assets and historical analysis of changing rates. It will also include API functionalities to allow developer access.</p>
+          <div class="mt-auto ml-4 flex">
+            <img src="images/dist/user-1.webp" alt="" class="block w-10 h-10 rounded-full -ml-4">
+          </div>
+        </div>
+        <div class="p-6 rounded-xl bg-gray flex flex-col">
+          <p class="mb-3 text-sm sm:text-base text-gray">Category</p>
+          <p class="mb-2 text-lg sm:text-h5 font-bold">Hedgie banner</p>
+          <p class="mb-3 text-sm sm:text-base text-gray">Funding amount: $5,000 - $6,000</p>
+          <p class="mb-14">The grant will be used to build a web application that integrates Tradingview strategies into a dYdX Trading account to execute trades directly through a strategy. Users will be able to tap into Tradingview resources and test out different ...</p>
+          <div class="mt-auto ml-4 flex">
+            <img src="images/dist/user-1.webp" alt="" class="block w-10 h-10 rounded-full -ml-4">
+            <img src="images/dist/user-2.webp" alt="" class="block w-10 h-10 rounded-full -ml-4">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  @@include('./parts/footer-block.html')
+
+</div>
+
+@@include('./parts/footer.html')

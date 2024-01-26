@@ -1,0 +1,85 @@
+@@include('./parts/header.html', { 'title': 'Single Page', 'description': 'Description' })
+
+<div class="page">
+
+  @@include('./parts/header-block.html')
+
+  <section class="py-5 sm:py-20">
+    <div class="container container--small">
+      <div>
+        <p class="mb-5 sm:text-lg text-gray">Category</p>
+        <h1 class="mb-10 font-bold text-h4 sm:text-h2">Youtube dYdX Education Library</h1>
+        <p class="mb-5 font-bold sm:text-xl">Team</p>
+        <div class="mb-20 flex flex-wrap gap-4">
+          <a href="#" class="p-2 pr-5 bg-gray text-white rounded-full flex items-center gap-2">
+            <img src="images/dist/user-1.webp" alt="" class="w-10 h-10 rounded-full">
+            <span>Theresa Webb</span>
+          </a>
+          <a href="#" class="p-2 pr-5 bg-gray text-white rounded-full flex items-center gap-2">
+            <img src="images/dist/user-2.webp" alt="" class="w-10 h-10 rounded-full">
+            <span>Jenny Wilson</span>
+          </a>
+        </div>
+      </div>
+      <p class="mb-3 mt-8 font-bold">Description</p>
+      <p class="mb-2">Grant includes work on Funding Rates page, Rewards & Tracking Simulator, and CLI Trading tool. All will be combined in a community accessible webpage that will continue to host additional work done and maintenance on behalf of Chaos Labs.</p>
+      <p class="mb-3 mt-8 font-bold">Purpose</p>
+      <p class="mb-2">Funding Rates page will help promote and guide traders around Perpetual premiums found across all assets traded on dYdX. Rewards & Tracking simulator will help market the benefits of trading on dYdX and assist current traders in mapping out their rewards. The CLI trading tool will make it easier for non-UI based traders to execute quickly on dYdX. The general purpose of this grant is to recruit Chaos Labs, a very qualified contributor, to work with dYdX on current and future projects.</p>
+      <p class="mb-3 mt-8 font-bold">Execution</p>
+      <p class="mb-2">3 months to completion. Each individual grant is estimated to take 120 days, but will be worked on concurrently.</p>
+      <p class="mb-3 mt-8 font-bold">Payment structure</p>
+      <p class="mb-2">25% upfront / 75% at completion of all Grants</p>
+      <p class="mb-3 mt-8 font-bold">Useful links</p>
+      <a href="#" class="block mb-2 text-accent">www.granttitleproject.com</a>
+      <a href="#" class="block mb-2 text-accent">www.granttitleproject.com</a>
+      <a href="#" class="block mb-2 text-accent">www.granttitleproject.com</a>
+      <p class="mb-3 mt-8 font-bold">Funding transactions</p>
+      <div class="grid gap-5">
+        <div class="p-6 rounded-xl bg-gray flex flex-col">
+          <p class="mb-3 text-lg sm:text-2xl font-bold">Funding Rate Page</p>
+          <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quaerat excepturi atque est aperiam similique doloremque natus, suscipit veniam. Odit.</p>
+          <p class="text-sm sm:text-base text-gray">Funding amount: $5,000 - $6,000</p>
+        </div>
+        <div class="p-6 rounded-xl bg-gray flex flex-col">
+          <p class="mb-3 text-lg sm:text-2xl font-bold">Funding Rate Page</p>
+          <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quaerat excepturi atque est aperiam similique doloremque natus, suscipit veniam. Odit.</p>
+          <p class="text-sm sm:text-base text-gray">Funding amount: $5,000 - $6,000</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 sm:py-20">
+    <div class="container container--small">
+      <div class="max-w-2xl mx-auto mb-10 sm:mb-20 text-center">
+        <p class="font-bold text-h5 sm:text-h3">Projects built with grants</p>
+      </div>
+      <div class="grid sm:grid-cols-2 gap-5">
+        <div class="p-6 rounded-xl bg-gray flex flex-col">
+          <p class="mb-3 text-sm sm:text-base text-gray">Crowdfund</p>
+          <p class="mb-2 text-lg sm:text-h5 font-bold">Funding rates page</p>
+          <p class="mb-3 text-sm sm:text-base text-gray">Funding amount: $5,000 - $6,000</p>
+          <p class="mb-14">Grant will be used to build a dedicated web app to give traders a view of all dYdX asset funding rates across multiple timeframes. The page will be interactive to include deep diving across different assets and historical analysis of changing rates. It will also include API functionalities to allow developer access.</p>
+          <div class="mt-auto ml-4 flex">
+            <img src="images/dist/user-1.webp" alt="" class="block w-10 h-10 rounded-full -ml-4">
+          </div>
+        </div>
+        <div class="p-6 rounded-xl bg-gray flex flex-col">
+          <p class="mb-3 text-sm sm:text-base text-gray">Category</p>
+          <p class="mb-2 text-lg sm:text-h5 font-bold">Hedgie banner</p>
+          <p class="mb-3 text-sm sm:text-base text-gray">Funding amount: $5,000 - $6,000</p>
+          <p class="mb-14">The grant will be used to build a web application that integrates Tradingview strategies into a dYdX Trading account to execute trades directly through a strategy. Users will be able to tap into Tradingview resources and test out different ...</p>
+          <div class="mt-auto ml-4 flex">
+            <img src="images/dist/user-1.webp" alt="" class="block w-10 h-10 rounded-full -ml-4">
+            <img src="images/dist/user-2.webp" alt="" class="block w-10 h-10 rounded-full -ml-4">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  @@include('./parts/footer-block.html')
+
+</div>
+
+@@include('./parts/footer.html')

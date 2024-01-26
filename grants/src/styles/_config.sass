@@ -1,0 +1,47 @@
+$screen-md: 426px
+$screen-lg: 769px
+
+@include font('CircularStd', normal, 400, '../fonts/CircularStd/CircularStd-Book.woff2')
+@include font('CircularStd', normal, 500, '../fonts/CircularStd/CircularStd-Medium.woff2')
+@include font('CircularStd', normal, 700, '../fonts/CircularStd/CircularStd-Bold.woff2')
+
+html
+  font-size: calc(100vw / 320 * 16)
+  @media ( min-width: $screen-md )
+    font-size: calc(100vw / 1440 * 16)
+
+body
+  font-family: CircularStd, serif
+  line-height: 1.5
+  background: url(../images/dist/grid-top.webp) top center / 300% no-repeat, url(../images/dist/grid-bottom.webp) bottom center / 300% no-repeat, #1C1C28
+  color: #FFFFFF
+  @media ( min-width: $screen-md )
+    background: url(../images/dist/grid-top.webp) top center / 100% no-repeat, url(../images/dist/grid-bottom.webp) bottom center / 100% no-repeat, #1C1C28
+
+.page
+  contain: paint
+
+.container
+  width: 100%
+  max-width: 80rem
+  padding: 0 1.5rem
+  margin: 0 auto
+  &--large
+    max-width: 88rem
+  &--small
+    max-width: 53rem
+
+.bg-gradient-blue
+  background: linear-gradient(326deg, #6966FF 25%, rgba(#6966FF, 0.4) 120%)
+
+.bg-accent
+  background: #6966FF
+
+.text-accent
+  color: #6966FF
+
+.bg-gray
+  background: #393953
+
+.text-gray
+  color: #A59EBA

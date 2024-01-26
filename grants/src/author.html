@@ -1,0 +1,64 @@
+@@include('./parts/header.html', { 'title': 'About Page', 'description': 'Description' })
+
+<div class="page">
+
+  @@include('./parts/header-block.html')
+
+  <section class="py-5 sm:py-20">
+    <div class="container container--small">
+      <img src="images/dist/user-0.webp" alt="" class="block w-28 h-28 sm:w-56 sm:h-56 mx-auto mb-10 rounded-full">
+      <h1 class="mb-10 text-center font-bold text-h4 sm:text-h2">Jane Cooper</h1>
+      <div>
+        <p class="mb-4 font-bold">About</p>
+        <p>For athletes, high altitude produces two contradictory effects on performance. For explosive events (sprints up to 400 metres, long jump, triple jump) the reduction in atmospheric pressure means there is less resistance from the atmosphere and the athlete's performance will generally be better at high altitude.</p>
+      </div>
+      <div class="mt-10">
+        <p class="mb-4 font-bold">Links</p>
+        <div class="flex flex-wrap gap-4">
+          <a href="#" class="p-2 pr-5 bg-gray text-white rounded-full flex items-center gap-2">
+            <img src="images/dist/twitter-1.svg" alt="" class="w-10 h-10 rounded-full">
+            <span>Twitter</span>
+          </a>
+          <a href="#" class="p-2 pr-5 bg-gray text-white rounded-full flex items-center gap-2">
+            <img src="images/dist/discord-1.svg" alt="" class="w-10 h-10 rounded-full">
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 sm:py-20">
+    <div class="container container--small">
+      <div class="max-w-2xl mx-auto mb-10 sm:mb-20 text-center">
+        <p class="font-bold text-h5 sm:text-h3">Projects</p>
+      </div>
+      <div class="grid sm:grid-cols-2 gap-5">
+        <div class="p-6 rounded-xl bg-gray flex flex-col">
+          <p class="mb-3 text-sm sm:text-base text-gray">Crowdfund</p>
+          <p class="mb-2 text-lg sm:text-h5 font-bold">Funding rates page</p>
+          <p class="mb-3 text-sm sm:text-base text-gray">Funding amount: $5,000 - $6,000</p>
+          <p class="mb-14">Grant will be used to build a dedicated web app to give traders a view of all dYdX asset funding rates across multiple timeframes. The page will be interactive to include deep diving across different assets and historical analysis of changing rates. It will also include API functionalities to allow developer access.</p>
+          <div class="mt-auto ml-4 flex">
+            <img src="images/dist/user-1.webp" alt="" class="block w-10 h-10 rounded-full -ml-4">
+          </div>
+        </div>
+        <div class="p-6 rounded-xl bg-gray flex flex-col">
+          <p class="mb-3 text-sm sm:text-base text-gray">Category</p>
+          <p class="mb-2 text-lg sm:text-h5 font-bold">Hedgie banner</p>
+          <p class="mb-3 text-sm sm:text-base text-gray">Funding amount: $5,000 - $6,000</p>
+          <p class="mb-14">The grant will be used to build a web application that integrates Tradingview strategies into a dYdX Trading account to execute trades directly through a strategy. Users will be able to tap into Tradingview resources and test out different ...</p>
+          <div class="mt-auto ml-4 flex">
+            <img src="images/dist/user-1.webp" alt="" class="block w-10 h-10 rounded-full -ml-4">
+            <img src="images/dist/user-2.webp" alt="" class="block w-10 h-10 rounded-full -ml-4">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  @@include('./parts/footer-block.html')
+
+</div>
+
+@@include('./parts/footer.html')

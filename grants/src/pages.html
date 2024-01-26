@@ -1,0 +1,33 @@
+@@include('./parts/header.html', { 'title': 'Pages Page', 'description': 'Description' })
+
+<div class="page">
+
+  @@include('./parts/header-block.html')
+
+  @@include('./parts/title-block.html', { 'title': 'Pages' })
+
+  <section class="py-5 sm:py-20">
+    <div class="container container--small">
+      <div>
+        <ul class="ml-4 list-disc">
+          <li class="mb-2"><a href="index.html" class="text-white">Home</a></li>
+          <li class="mb-2"><a href="grants.html" class="text-white">Grants</a></li>
+          <li class="mb-2"><a href="discover.html" class="text-white">Discover</a></li>
+          <li class="mb-2"><a href="program.html" class="text-white">Program</a></li>
+          <li class="mb-2"><a href="blog.html" class="text-white">Blog</a></li>
+          <li class="mb-2"><a href="single-blog.html" class="text-white">Single Blog</a></li>
+          <li class="mb-2"><a href="single-post.html" class="text-white">Single post</a></li>
+          <li class="mb-2"><a href="faq.html" class="text-white">FAQ</a></li>
+          <li class="mb-2"><a href="brand.html" class="text-white">Brand</a></li>
+          <li class="mb-2"><a href="author.html" class="text-white">Author</a></li>
+          <li class="mb-2"><a href="application.html" class="text-white">Application</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  @@include('./parts/footer-block.html')
+
+</div>
+
+@@include('./parts/footer.html')

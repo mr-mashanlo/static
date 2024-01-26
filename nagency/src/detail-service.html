@@ -1,0 +1,70 @@
+@@include('./parts/header.html', { 'title': 'Detail Service Page', 'description': 'Description' })
+
+<div class="page">
+
+  @@include('./parts/header-block.html', { 'bg': 'bg-[#F8FBFF]' })
+
+  @@include('./parts/heading-block.html', { 'title': 'Detail Service' })
+
+  <section class="py-12 sm:py-20">
+    <div class="container">
+      <div class="grid sm:grid-cols-[1fr_2.5fr] gap-20">
+        <div>
+          <a href="#" class="block py-4 px-6 bg-pink text-white rounded shadow-2xl">Consultant Planning</a>
+          <a href="#" class="block mt-5 py-4 px-6 rounded shadow-2xl">Design Thingking</a>
+          <a href="#" class="block mt-5 py-4 px-6 rounded shadow-2xl">SEO Marketing</a>
+          <a href="#" class="block mt-5 py-4 px-6 rounded shadow-2xl">Business Advisor</a>
+          <a href="#" class="block mt-5 py-4 px-6 rounded shadow-2xl">Brand Personal</a>
+          <a href="#" class="block mt-5 py-4 px-6 rounded shadow-2xl">Development</a>
+        </div>
+        <div>
+          <p class="text-pink text-lg leading-[1.7]">Detail Service</p>
+          <p class="mt-1 sm:mt-4 text-h3 sm:text-h2 text-dark-gray font-semibold -tracking-wider">Consultant Planning</p>
+          <p class="mt-10 text-lg leading-[1.8] sm:leading-[1.7]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Utenimad minim veniam, quis nostrud exercitation dolore magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Utenimad minim veniam, quis nostrud exercitation dolore magna</p>
+          <div class="mt-10 relative">
+            <img src="images/dist/video.webp" alt="" class="block w-full sm:w-[53rem] mx-auto">
+            <a href="#" class="w-14 h-14 sm:w-32 sm:h-32 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+              <img src="images/icons/play.svg" alt="" class="block w-full h-full">
+            </a>
+          </div>
+          <p class="mt-10 text-lg leading-[1.8] sm:leading-[1.7]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Utenimad minim veniam, quis nostrud exercitation dolore magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Utenimad minim veniam, quis nostrud exercitation dolore magna</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-12 sm:py-20">
+    <div class="container">
+      <div class="text-center">
+        <p class="text-pink text-lg leading-[1.7]">Our Solutions</p>
+        <h2 class="mt-4 text-h3 sm:text-h2 text-dark-gray font-semibold -tracking-wider">Why Choose Us</h2>
+      </div>
+      <div class="mt-7 sm:mt-12 pt-12 pb-10 grid sm:grid-cols-3 gap-10 sm:gap-0 rounded-lg border border-solid border-light-gray">
+        <div class="px-8 sm:px-12 border-r border-solid border-light-gray">
+          <img src="images/icons/icon-1.svg" alt="" class="block w-16 h-16">
+          <p class="mt-20 text-dark-gray text-h4 font-semibold -tracking-wider">Great Experience</p>
+          <p class="mt-4 text-lg leading-[1.7]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        </div>
+        <div class="px-8 sm:px-12 border-r border-solid border-light-gray">
+          <img src="images/icons/icon-2.svg" alt="" class="block w-16 h-16">
+          <p class="mt-20 text-dark-gray text-h4 font-semibold -tracking-wider">Great Experience</p>
+          <p class="mt-4 text-lg leading-[1.7]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        </div>
+        <div class="px-8 sm:px-12">
+          <img src="images/icons/icon-3.svg" alt="" class="block w-16 h-16">
+          <p class="mt-20 text-dark-gray text-h4 font-semibold -tracking-wider">Great Experience</p>
+          <p class="mt-4 text-lg leading-[1.7]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  @@include('./parts/question-block.html')
+
+  @@include('./parts/banner-block.html')
+
+  @@include('./parts/footer-block.html')
+
+</div>
+
+@@include('./parts/footer.html')

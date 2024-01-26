@@ -1,0 +1,49 @@
+@@include('./parts/header.html', { 'title': 'Blog Page', 'description': 'Description' })
+
+<div class="page">
+
+  @@include('./parts/header-block.html')
+
+  <section class="py-8">
+    <div class="container">
+      <h1 class="mb-11 text-h1 font-semibold">Blog</h1>
+      <div class="grid gap-8">
+        <div class="flex gap-4 sm:gap-12 flex-col sm:flex-row">
+          <img src="images/dist/post-1.webp" alt="" class="block w-44 h-44 rounded">
+          <div class="">
+            <p class="mb-4 text-h2 font-semibold">How to create your own podcast cover art?</p>
+            <p class="mb-4 sm:mb-9 text-sm text-light-gray"><time datetime="2021-18-01">Jan 18, 2021</time></p>
+            <a href="single-blog.html" class="text-sm tracking-wide font-semibold text-accent">Read More</a>
+          </div>
+        </div>
+        <div class="flex gap-4 sm:gap-12 flex-col sm:flex-row">
+          <img src="images/dist/post-2.webp" alt="" class="block w-44 h-44 rounded">
+          <div class="">
+            <p class="mb-4 text-h2 font-semibold">How to create your own podcast cover art?</p>
+            <p class="mb-4 sm:mb-9 text-sm text-light-gray"><time datetime="2021-18-01">Jan 18, 2021</time></p>
+            <a href="single-blog.html" class="text-sm tracking-wide font-semibold text-accent">Read More</a>
+          </div>
+        </div>
+        <div class="flex gap-4 sm:gap-12 flex-col sm:flex-row">
+          <img src="images/dist/post-3.webp" alt="" class="block w-44 h-44 rounded">
+          <div class="">
+            <p class="mb-4 text-h2 font-semibold">How to create your own podcast cover art?</p>
+            <p class="mb-4 sm:mb-9 text-sm text-light-gray"><time datetime="2021-18-01">Jan 18, 2021</time></p>
+            <a href="single-blog.html" class="text-sm tracking-wide font-semibold text-accent">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="mt-14 flex gap-1">
+        <a href="#" class="block w-8 h-8 bg-light text-dark-gray text-xs font-semibold flex items-center justify-center rounded">1</a>
+        <a href="#" class="block w-8 h-8 bg-light text-dark-gray text-xs font-semibold flex items-center justify-center rounded">2</a>
+        <a href="#" class="block w-8 h-8 bg-light text-dark-gray text-xs font-semibold flex items-center justify-center rounded">3</a>
+        <a href="#" class="block w-8 h-8 bg-light text-dark-gray text-xs font-semibold flex items-center justify-center rounded">...</a>
+      </div>
+    </div>
+  </section>
+
+  @@include('./parts/footer-block.html')
+
+</div>
+
+@@include('./parts/footer.html')

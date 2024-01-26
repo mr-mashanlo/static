@@ -1,0 +1,57 @@
+@@include('./parts/header.html', { 'title': 'Contact Page', 'description': 'Description' })
+
+<div class="page">
+
+  @@include('./parts/header-block.html', { 'bg': 'bg-[#F8FBFF]' })
+
+  @@include('./parts/heading-block.html', { 'title': 'Contact' })
+
+  <section class="py-12 sm:py-20">
+    <div class="container">
+      <div class="p-5 sm:p-14 grid sm:grid-cols-2 gap-20 sm:gap-32 rounded-xl shadow-2xl">
+        <div>
+          <p class="text-pink text-lg leading-[1.7]">Contact us</p>
+          <p class="mt-4 text-h3 sm:text-h2 text-dark-gray font-semibold -tracking-wider">Contact Our Team, Feel free to talk about anything.</p>
+          <div class="mt-10 grid gap-5">
+            <div class="flex items-center gap-4">
+              <img src="images/icons/location.svg" alt="" class="block w-10 h-10">
+              <span>2715 Ash Dr. San Jose, South Dakota 83475</span>
+            </div>
+            <div class="flex items-center gap-4">
+              <img src="images/icons/phone.svg" alt="" class="block w-10 h-10">
+              <span>(252) 555-0126</span>
+            </div>
+            <div class="flex items-center gap-4">
+              <img src="images/icons/email.svg" alt="" class="block w-10 h-10">
+              <span>example@gmail.com</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <form class="grid justify-items-start gap-5 sm:gap-10">
+            <label class="w-full">
+              <input type="text" placeholder="Name" class="w-full p-3 border border-solid border-light-gray">
+            </label>
+            <div class="w-full grid sm:grid-cols-2 gap-5">
+              <label class="w-full">
+                <input type="text" placeholder="Email" class="w-full p-3 border border-solid border-light-gray">
+              </label>
+              <label class="w-full">
+                <input type="text" placeholder="Phone" class="w-full p-3 border border-solid border-light-gray">
+              </label>
+            </div>
+            <label class="w-full">
+              <textarea rows="6" placeholder="Your Quenstions" class="w-full p-3 border border-solid border-light-gray"></textarea>
+            </label>
+            <button class="inline-block py-4 px-10 bg-blue text-white rounded border-none">Contact Us</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  @@include('./parts/footer-block.html')
+
+</div>
+
+@@include('./parts/footer.html')

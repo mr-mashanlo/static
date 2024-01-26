@@ -1,0 +1,44 @@
+$screen-md: 426px
+$screen-lg: 769px
+
+@include font('SourceSerifPro', normal, 400, '../fonts/SourceSerifPro/SourceSerifPro-Regular.woff2')
+@include font('SourceSerifPro', normal, 600, '../fonts/SourceSerifPro/SourceSerifPro-SemiBold.woff2')
+
+html
+  font-size: calc(100vw / 320 * 16)
+  @media ( min-width: $screen-md )
+    font-size: calc(100vw / 1440 * 16)
+
+body
+  font-family: SourceSerifPro, serif
+  line-height: 1.5
+  color: #222222
+
+.page
+  contain: paint
+
+.container
+  width: 100%
+  max-width: 44rem
+  padding: 0 1rem
+  margin: 0 auto
+  &--large
+    max-width: 73rem
+
+.border-light
+  border-color: #F5F5F7
+
+.bg-light
+  background: #F5F5F7
+
+.bg-accent
+  background: #7247CA
+
+.text-accent
+  color: #7247CA
+
+.text-light-gray
+  color: #979797
+
+.text-dark-gray
+  color: #555555
